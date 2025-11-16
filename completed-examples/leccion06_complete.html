@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web Avanzada</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        /* Barra de navegación */
+        nav {
+            background-color: #3498db;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 15px 0;
+            z-index: 1000;
+        }
+
+        nav ul {
+            list-style-type: none;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ff6347; /* Efecto hover */
+        }
+
+        /* Estilos para las secciones */
+        section {
+            padding: 100px 20px 20px 20px; /* Añadir espacio para que no se superponga con la barra de navegación */
+            text-align: center;
+        }
+
+        section h1, section h2 {
+            color: #333;
+        }
+
+        section p {
+            color: #666;
+        }
+
+        /* Diseño responsivo */
+        @media (max-width: 768px) {
+            nav ul li {
+                display: block;
+                margin: 10px 0;
+            }
+
+            section {
+                padding: 80px 20px 20px 20px; /* Ajustar el padding para pantallas más pequeñas */
+            }
+        }
+
+        /* Pie de página */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Barra de navegación -->
+    <nav>
+        <ul>
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#about">Sobre mí</a></li>
+            <li><a href="#services">Servicios</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sección de inicio -->
+    <section id="home">
+        <h1>Bienvenido a mi página web</h1>
+        <p>Esta es una página web avanzada usando HTML y CSS.</p>
+    </section>
+
+    <!-- Sección sobre mí -->
+    <section id="about">
+        <h2>Sobre mí</h2>
+        <p>Me apasiona la programación web y siempre estoy aprendiendo cosas nuevas.</p>
+    </section>
+
+    <!-- Sección de servicios -->
+    <section id="services">
+        <h2>Servicios</h2>
+        <p>Ofrezco servicios de desarrollo web y diseño responsivo.</p>
+    </section>
+
+    <!-- Sección de contacto -->
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>Puedes contactarme por correo electrónico a ejemplo@dominio.com.</p>
+    </section>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>Derechos reservados &copy; 2025</p>
+    </footer>
+
+</body>
+</html>
